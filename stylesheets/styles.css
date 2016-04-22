@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Exo);
-@import url(https://fonts.googleapis.com/css?family=Roboto:300italic,300,400italic,400);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,500,500italic);
 
 /* MeyerWeb Reset */
 
@@ -83,7 +83,7 @@ h4, h5, h6 {
 }
 
 a {
-  color:#C30000;
+  color:#E6693f;
   font-weight:200;
   text-decoration:none;
 }
@@ -101,7 +101,7 @@ em {
 }
 
 strong {
-  font-weight:700;
+  font-weight:500;
 }
 
 ul {
