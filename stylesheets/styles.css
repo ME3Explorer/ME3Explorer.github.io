@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Exo);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300italic,300,400italic,400);
 
 /* MeyerWeb Reset */
 
@@ -35,6 +36,12 @@ body {
 	line-height: 1.8em;
 	-webkit-font-smoothing: antialiased;
 
+}
+
+section p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -233,6 +240,7 @@ header {
 
 p.header {
 	font-size: 16px;
+	font-family: 'Exo', sans-serif;
 }
 
 h1.header {
@@ -263,40 +271,35 @@ header ul {
 }
 
 header li {
-	list-style-type: none;
-  width:132px;
-  height:15px;
-	margin-bottom: 12px;
-	line-height: 1em;
-	padding: 6px 6px 6px 7px;
-
-	background: #AF0011;
-	background: -moz-linear-gradient(top, #AF0011 0%, #820011 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
-  background: -webkit-linear-gradient(top, #AF0011 0%,#820011 100%);
-  background: -o-linear-gradient(top, #AF0011 0%,#820011 100%);
-  background: -ms-linear-gradient(top, #AF0011 0%,#820011 100%);
-  background: linear-gradient(top, #AF0011 0%,#820011 100%);
-
-	border-radius:4px;
-  border:1px solid #0D0D0D;
-
-	-webkit-box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
-	box-shadow: inset 0px 1px 1px 0 rgba(233,2,38, 1);
-
+	cursor: pointer;
+    list-style-type: none;
+    width: 132px;
+    height: 15px;
+    margin-bottom: 12px;
+    line-height: 1em;
+    padding: 6px 6px 6px 7px;
+    background: #B73B12;
+    background: -moz-linear-gradient(top, #C14C25 0%, #9d2801 100%);
+    background: -webkit-linear-gradient(top, #C14C25 0%,#9d2801 100%);
+    background: -o-linear-gradient(top, #C14C25 0%,#9d2801 100%);
+    background: -ms-linear-gradient(top, #C14C25 0%,#9d2801 100%);
+    background: linear-gradient(top, #C14C25 0%,#9d2801 100%);
+    border-radius: 4px;
+    border: 1px solid #0D0D0D;
+    box-shadow: inset 0px 1px 1px 0 #E04916;
 }
 
 header li:hover {
-	background: #C3001D;
-	background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
-  background: -webkit-linear-gradient(top, #C3001D 0%,#950119 100%);
-  background: -o-linear-gradient(top, #C3001D 0%,#950119 100%);
-  background: -ms-linear-gradient(top, #C3001D 0%,#950119 100%);
-  background: linear-gradient(top, #C3001D 0%,#950119 100%);
+    background: #CC4A23;
+    background: -moz-linear-gradient(top, #C3001D 0%, #950119 100%);
+    background: -webkit-linear-gradient(top, #ed6a43 0%,#B52A1D 100%);
+    background: -o-linear-gradient(top, #C3001D 0%,#950119 100%);
+    background: -ms-linear-gradient(top, #C3001D 0%,#950119 100%);
+    background: linear-gradient(top, #C3001D 0%,#950119 100%);
 }
 
 a.buttons {
+	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	background: url(../images/arrow-down.png) no-repeat;
 	font-weight: normal;

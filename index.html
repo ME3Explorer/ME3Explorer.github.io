@@ -99,6 +99,12 @@
       </section>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		
+	<script>[].forEach.call(document.querySelectorAll('header li'), function(x) {x.addEventListener("click", function( event ) {
+	if(!event.ctrlKey){
+    window.location.href = event.target.firstChild.href;
+	} else {
+	window.open(event.target.firstChild.href, '_blank');
+	}
+	}, false)}); </script>
   </body>
 </html>
