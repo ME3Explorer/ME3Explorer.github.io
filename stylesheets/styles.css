@@ -221,20 +221,16 @@ td {
 /* Header */
 
 header {
-	background-color: #171717;
+	background-color: rgba(23, 23, 23, 0.9);
 	color: #FDFDFB;
-  width:170px;
-  float:left;
-  position:fixed;
+	width:170px;
+	float:left;
+	position:fixed;
 	border: 1px solid #000;
-	-webkit-border-top-right-radius: 4px;
-	-webkit-border-bottom-right-radius: 4px;
-	-moz-border-radius-topright: 4px;
-	-moz-border-radius-bottomright: 4px;
 	border-top-right-radius: 4px;
 	border-bottom-right-radius: 4px;
 	padding: 34px 25px 22px 50px;
-	margin: 30px 25px 0 0;
+	margin: 50px 25px 0 0;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -346,7 +342,15 @@ section {
   display: table;
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1440px) {
+	
+	section {
+		margin: 0 0 0 28.5%;
+		width: 648px;
+	}
+}
+
+@media print, screen and (max-width: 1050px) {
 
   div.wrapper {
     width:auto;
@@ -357,6 +361,8 @@ section {
     float:none;
     position:static;
     width:auto;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
   }
 
 	footer {
@@ -368,11 +374,12 @@ section {
   header {
     padding-right:50px;
 	margin-right: 0px;
+	margin-top: 20px;
   }
 
   section {
     padding:20px 50px 20px 50px;
-    margin:0 0 20px;
+    margin:0 0 30px;
   }
 
   header a small {
@@ -380,7 +387,8 @@ section {
   }
   
   body {
-    padding-left: 50px;
+    padding-left: 30px;
+	padding-right: 30px;
   }
   
   .logo-image {
@@ -496,6 +504,7 @@ section {
   }
 
 .background {
-  background: #071021 url("../images/me3exbackground.png") top center repeat;
-  background-attachment: fixed;
+    background: #071021 url("../images/me3exbackground.png") top center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
