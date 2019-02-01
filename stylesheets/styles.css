@@ -508,3 +508,10 @@ section {
     background-attachment: fixed;
     background-size: cover;
 }
+
+.closing-announcement {
+	text-decoration: none;
+	border: none;
+	font-size: 1.25rem;
+	text-align: center;
+}
